@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">College admission Form</h1>
+<form action="thanks.html">
+    <fieldset>
+    <legend>personal details</legend>
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" id="name"><br><br>
+
+    <label for="Gender">Gender:</label><br>
+    <input type="radio" id="gender" name="gender" value="male"><label for="gender">Male</label>
+    <input type="radio" id="gender" name="gender" value="female"><label for="gender">Female</label>
+    <input type="radio" id="gender" name="gender" value="other"><label for="gender">Other</label><br><br>
+
+    <label for="dob">DOB:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="contact">Contact No.:</label><br>
+    <input type="number" id="contact" name="contact"><br><br>
+</fieldset>
+<fieldset>
+    <legend>Course selection</legend>
+    <label for="course">Choose Course</label>
+    <select name="course" id="course">
+        <option value="MERN">MERN</option>
+        <option value="DSA">DSA</option>
+        <option value="Data Science">Data Science</option>
+    </select><br><br><br><br><br>
+
+    <label for="Skill">Skill Know</label>
+    <input type="checkbox" id="html" value="HTML">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="html" value="CSS">
+    <label for="html">CSS</label>
+    <input type="checkbox" id="html" value="Java">
+    <label for="html">Java</label><br><br><br>
+
+    <label for="Address">Address</label><br>
+    <textarea name="Address" id="Address"></textarea><br>
+
+    <label for="photo">Photo</label>
+    <input type="file" name="photo" id="photo">
+    <br><br>
+    <label for="id">ID</label>
+    <input type="file" name="id" id="id">
+    
+</fieldset>
+<fieldset>
+    <legend>preferences</legend>
+    <label for="batchtime">Prefered batch time</label>
+    <input type="time">
+
+    <p>declaration</p>
+    <input type="checkbox" name="declare" id="dec">
+    <label for="dec">Correct info</label><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset">
+    </fieldset>
+    </form>
+</body>
+</html>

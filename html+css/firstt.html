@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Queries</title>
+  <style>
+    .card{
+      background-color: bisque;
+      border-radius: 5px;
+      border: 5px solid black;
+      width: 25%;
+    
+    }
+    /* 0-480px ---- mobile
+       481-768px --- tablet
+       769-1024 --- laptop 
+       1025+ --- desktop & other 
+
+    */
+    @media (min-width:768px){
+      .card{
+        background-color: aqua;
+      }
+    }
+
+    @media (min-width:480px)and(min-width:200px){
+      .card{
+        background-color: rgb(183, 10, 10);
+      }
+    }
+    
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus iure eos magni quaerat quae est qui id eveniet, voluptas porro perspiciatis unde ipsa impedit veritatis? Debitis velit fugit doloribus iusto.
+  </div>
+</body>
+</html>
