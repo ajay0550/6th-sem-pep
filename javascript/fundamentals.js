@@ -20,18 +20,28 @@
 // lun.addEventListener('click', ()=>{
 //     console.log("did u just click this u little niga");
 // })
+// ------------------------------------------------------------------------
+// const obj = {
+//     name: "ajay",
+//     sayhi(){
+//         console.log(this.name);
+//     }
+// };
 
-const obj = {
-    name: "ajay",
-    sayhi(){
-        console.log(this.name);
-    }
-};
+// obj.sayhi();
 
-obj.sayhi();
+// obj.wow = function(){
+//     let ooo = "ajay func";
+//     console.log(this.ooo);
+// }
+// obj.wow();
 
-obj.wow = function(){
-    let ooo = "ajay func";
-    console.log(this.ooo);
-}
-obj.wow();
+order(()=>{
+    payment(()=>{
+        receipt(()=>{
+            delivered(()=>{
+                
+            })
+        })
+    })
+})
